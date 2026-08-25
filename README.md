@@ -1,5 +1,7 @@
 # 日本の所得格差分析：タイテル指数（Theil-T Index）とグループ加法分解
 
+> ⚡ **本分析コードおよびWebレポートは Google Antigravity (AGY) により自律的に作成・検証されました。**
+
 本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、**タイテル指数（Theil-T Index）**およびその**グループ内格差（Within-group）**と**グループ間格差（Between-group）**への完全加法分解を行うPythonコードと分析結果を提供します。
 
 > **GitHub Pages:** [Webレポートを閲覧する (docs/index.html)](./docs/index.html)

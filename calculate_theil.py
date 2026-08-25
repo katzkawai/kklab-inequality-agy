@@ -565,7 +565,41 @@ def generate_github_pages_html(decomp: dict, output_html_path: str, img_rel_path
             </div>
         </section>
 
-        <!-- 6. 免責事項 (Disclaimer) -->
+        <!-- 6. データソース・統計的背景 (Data Source) -->
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200/80 space-y-4">
+            <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                <span class="w-2.5 h-6 bg-indigo-600 rounded-full inline-block"></span>
+                6. データの出典・統計的背景
+            </h2>
+            <p class="text-sm text-slate-600 leading-relaxed">
+                本分析で用いた家計ミクロデータは、日本の所得分布および年齢階層別の格差構造を忠実に再現するため、以下の公的統計調査の公表データ・分布パラメータを参考に統計的に生成された合成データ（Synthetic Dataset, $N=1,500$ 世帯）です。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="font-bold text-slate-800 text-sm mb-1">厚生労働省「国民生活基礎調査」</div>
+                    <div class="text-indigo-600 font-medium mb-1.5">所得票・各種世帯の所得等の状況</div>
+                    <p class="text-slate-500">
+                        年齢階級別の平均所得金額、中央値、所得四分位・五分位階層の分布形状、および高所得層のパレート裾野パラメータの基準として参照。
+                    </p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="font-bold text-slate-800 text-sm mb-1">総務省統計局「家計調査」</div>
+                    <div class="text-indigo-600 font-medium mb-1.5">家計収支編（世帯主の年齢階級別）</div>
+                    <p class="text-slate-500">
+                        世帯主年齢階級ごとの実収入水準、世帯人員数、勤労者世帯および無職世帯（高齢層）の構成比率のモデル化に参照。
+                    </p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="font-bold text-slate-800 text-sm mb-1">総務省「就業構造基本調査」</div>
+                    <div class="text-indigo-600 font-medium mb-1.5">雇用形態別・所得分布データ</div>
+                    <p class="text-slate-500">
+                        正規雇用・非正規雇用比率や定年後の再雇用に伴う中高齢層のグループ内格差拡大（$T_g$の上昇）の挙動モデルに参照。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. 免責事項 (Disclaimer) -->
         <section class="bg-slate-100 p-5 rounded-xl border border-slate-200 text-xs text-slate-500 space-y-2">
             <div class="font-bold text-slate-700 flex items-center gap-1.5 text-sm">
                 <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -665,7 +699,17 @@ uv run calculate_theil.py
 
 ---
 
-## 5. 免責事項（Disclaimer）
+## 5. データの出典・統計的背景
+
+本リポジトリで使用されている家計データは、日本の所得格差構造を再現するため、以下の公的統計調査の公表データ・分布パラメータを参考に統計的手法（対数正規分布 + パレートテール + 抽出ウェイト）により生成された合成データ（Synthetic Dataset, $N=1,500$）です。
+
+1. **厚生労働省「国民生活基礎調査」**（所得票・各種世帯の所得等の状況）
+2. **総務省統計局「家計調査」**（家計収支編・貯蓄・負債編）
+3. **総務省「就業構造基本調査」**（雇用形態別・所得分布データ）
+
+---
+
+## 6. 免責事項（Disclaimer）
 
 本リポジトリで提供される分析コード、計算ロジック、可視化グラフ、および解説は、タイテル指数（Theil-T Index）の加法分解手法を実証・解説するための研究・教育・技術デモを目的としています。使用しているデータは統計的手法により生成されたシミュレーションデータ（合成データ）であり、実在する個人・世帯の実測値そのものではありません。本コンテンツの正確性・完全性・有用性等についてはいかなる保証も行いません。本情報の利用により生じた直接的・間接的な損害について、作成者および関係者は一切の責任を負いません。
 """

@@ -1,9 +1,13 @@
 # 日本の所得格差分析：タイテル指数（Theil-T Index）とグループ加法分解
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22102913.svg)](https://doi.org/10.5281/zenodo.22102913)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > ⚡ **本分析コードおよびWebレポートは Google Antigravity (AGY) により自律的に作成・検証されました。**
 
 本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、<strong>タイテル指数（Theil-T Index）</strong>およびその<strong>グループ内格差（Within-group）</strong>と<strong>グループ間格差（Between-group）</strong>への完全加法分解を行うPythonコードと分析結果を提供します。
 
+- **Zenodo アーカイブ (DOI):** [https://doi.org/10.5281/zenodo.22102913](https://doi.org/10.5281/zenodo.22102913)
 - **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
 - **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)
   - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, `kkawai@econ.nagoya-cu.ac.jp`）

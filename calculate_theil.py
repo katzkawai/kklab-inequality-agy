@@ -391,13 +391,17 @@ def generate_github_pages_html(decomp: dict, output_html_path: str, img_rel_path
     <!-- Header -->
     <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white py-12 px-6 shadow-xl border-b border-indigo-900/50">
         <div class="max-w-6xl mx-auto">
-            <div class="flex items-center gap-3 mb-3">
+            <div class="flex flex-wrap items-center gap-3 mb-3">
                 <span class="bg-indigo-500/20 text-indigo-300 text-xs font-semibold px-3 py-1 rounded-full border border-indigo-400/30 uppercase tracking-wider">
                     所得格差分析 &bull; 統計的加法分解
                 </span>
                 <span class="bg-emerald-500/20 text-emerald-300 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-400/30">
                     ⚡ Created with Google Antigravity
                 </span>
+                <a href="theil_paper.pdf" target="_blank" class="bg-amber-500/20 text-amber-200 hover:bg-amber-500/30 transition text-xs font-semibold px-3 py-1 rounded-full border border-amber-400/30 flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    解説論文 (LuaLaTeX / PDF) を読む
+                </a>
                 <span class="text-xs text-slate-400">PEP 723 / uv 実行環境</span>
             </div>
             <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">
@@ -658,7 +662,10 @@ def generate_readme_md(decomp: dict, output_path: str) -> None:
 
 本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、**タイテル指数（Theil-T Index）**およびその**グループ内格差（Within-group）**と**グループ間格差（Between-group）**への完全加法分解を行うPythonコードと分析結果を提供します。
 
-> **GitHub Pages:** [Webレポートを閲覧する (docs/index.html)](./docs/index.html)
+- **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
+- **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)
+  - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, `kkawai@econ.nagoya-cu.ac.jp`）
+
 
 ---
 

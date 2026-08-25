@@ -565,6 +565,25 @@ def generate_github_pages_html(decomp: dict, output_html_path: str, img_rel_path
             </div>
         </section>
 
+        <!-- 6. 免責事項 (Disclaimer) -->
+        <section class="bg-slate-100 p-5 rounded-xl border border-slate-200 text-xs text-slate-500 space-y-2">
+            <div class="font-bold text-slate-700 flex items-center gap-1.5 text-sm">
+                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                </svg>
+                免責事項（Disclaimer）
+            </div>
+            <p>
+                本ページおよびリポジトリで提供される分析コード、計算ロジック、可視化グラフ、および解説は、タイテル指数（Theil-T Index）の加法分解手法を実証・解説するための研究・教育・技術デモを目的としています。
+            </p>
+            <p>
+                本分析で用いているデータは、日本の所得分布動向を参考にして統計的手法（対数正規分布およびパレート分布等）に基づき自動生成されたシミュレーションデータ（合成データ）であり、特定の個人・世帯の実測値そのものではありません。
+            </p>
+            <p>
+                本コンテンツの正確性、完全性、有用性、特定目的への適合性についてはいかなる保証も行いません。本コンテンツの利用により直接的または間接的に生じたいかなる損害についても、作成者および関係者は一切の責任を負いかねますのであらかじめご了承ください。
+            </p>
+        </section>
+
     </main>
 
     <!-- Footer -->
@@ -643,6 +662,12 @@ def generate_readme_md(decomp: dict, output_path: str) -> None:
 ```bash
 uv run calculate_theil.py
 ```
+
+---
+
+## 5. 免責事項（Disclaimer）
+
+本リポジトリで提供される分析コード、計算ロジック、可視化グラフ、および解説は、タイテル指数（Theil-T Index）の加法分解手法を実証・解説するための研究・教育・技術デモを目的としています。使用しているデータは統計的手法により生成されたシミュレーションデータ（合成データ）であり、実在する個人・世帯の実測値そのものではありません。本コンテンツの正確性・完全性・有用性等についてはいかなる保証も行いません。本情報の利用により生じた直接的・間接的な損害について、作成者および関係者は一切の責任を負いません。
 """
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(md_content)

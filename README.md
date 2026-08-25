@@ -2,7 +2,7 @@
 
 > ⚡ **本分析コードおよびWebレポートは Google Antigravity (AGY) により自律的に作成・検証されました。**
 
-本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、**タイテル指数（Theil-T Index）**およびその**グループ内格差（Within-group）**と**グループ間格差（Between-group）**への完全加法分解を行うPythonコードと分析結果を提供します。
+本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、<strong>タイテル指数（Theil-T Index）</strong>およびその<strong>グループ内格差（Within-group）</strong>と<strong>グループ間格差（Between-group）</strong>への完全加法分解を行うPythonコードと分析結果を提供します。
 
 - **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
 - **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)

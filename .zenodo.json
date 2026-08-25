@@ -1,0 +1,43 @@
+{
+  "title": "日本の家計所得格差におけるタイテル指数の加法分解とデータ生成・計算・視覚化手法の計算論的実装",
+  "description": "本研究リポジトリは、日本の所得・家計統計の実態に即した合成ミクロデータを用いて、タイテル指数（Theil-T Index, GE(1)）の完全加法分解（グループ内格差・グループ間格差）を厳密に計算・検証するPython実装（PEP 723準拠）、4面可視化ダッシュボード、およびLuaLaTeX（jlreq）による学術解説論文を提供します。",
+  "creators": [
+    {
+      "name": "河合 勝彦",
+      "affiliation": "名古屋市立大学大学院経済学研究科",
+      "orcid": ""
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "keywords": [
+    "タイテル指数",
+    "Theil Index",
+    "Theil-T Index",
+    "所得格差",
+    "加法分解",
+    "Additive Decomposition",
+    "一般化エントロピー指数",
+    "国民生活基礎調査",
+    "家計調査",
+    "Python",
+    "PEP 723",
+    "LuaLaTeX",
+    "jlreq",
+    "オープンサイエンス"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/katzkawai/kklab-inequality-agy",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "http://katzkawai.org/kklab-inequality-agy/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}

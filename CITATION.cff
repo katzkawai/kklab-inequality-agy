@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or academic paper, please cite it as below."
+authors:
+  - family-names: "Kawai"
+    given-names: "Katsuhiko"
+    affiliation: "Graduate School of Economics, Nagoya City University"
+    email: "kkawai@econ.nagoya-cu.ac.jp"
+title: "日本の家計所得格差におけるタイテル指数の加法分解とデータ生成・計算・視覚化手法の計算論的実装"
+abstract: "日本の所得格差構造を解明するため、タイテル指数（Theil-T Index, GE(1)）の完全加法分解（グループ内格差・グループ間格差）を厳密に計算し、日本の所得統計に基づいた合成ミクロデータの生成からダッシュボード可視化、Webレポート公開までを包括的に実装した計算論的オープンサイエンスフレームワーク。"
+version: 1.0.0
+date-released: 2026-08-26
+license: MIT
+repository-code: "https://github.com/katzkawai/kklab-inequality-agy"
+url: "http://katzkawai.org/kklab-inequality-agy/"
+keywords:
+  - "Theil Index"
+  - "Theil-T Index"
+  - "Income Inequality"
+  - "Additive Decomposition"
+  - "Generalized Entropy"
+  - "Japan Household Income"
+  - "PEP 723"
+  - "Open Science"
+  - "LuaLaTeX"

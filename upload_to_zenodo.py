@@ -109,7 +109,8 @@ def main():
             "creators": [
                 {
                     "name": "河合 勝彦",
-                    "affiliation": "名古屋市立大学大学院経済学研究科"
+                    "affiliation": "名古屋市立大学大学院経済学研究科",
+                    "orcid": "0000-0002-2811-3336"
                 }
             ],
             "access_right": "open",

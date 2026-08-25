@@ -401,6 +401,10 @@ def generate_github_pages_html(decomp: dict, output_html_path: str, img_rel_path
                 <a href="https://doi.org/10.5281/zenodo.22102913" target="_blank" class="hover:opacity-90 transition">
                     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22102913.svg" alt="DOI: 10.5281/zenodo.22102913">
                 </a>
+                <a href="https://orcid.org/0000-0002-2811-3336" target="_blank" class="bg-lime-500/20 text-lime-300 hover:bg-lime-500/30 transition text-xs font-semibold px-3 py-1 rounded-full border border-lime-400/30 flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 fill-current text-[#A6CE39]" viewBox="0 0 256 256"><path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-40.3 189.6H64.4V66.8h23.3v122.8zm-11.6-140c-7.9 0-14.3-6.4-14.3-14.3 0-7.9 6.4-14.3 14.3-14.3 7.9 0 14.3 6.4 14.3 14.3 0 7.9-6.4 14.3-14.3 14.3zm120.3 84.1c0 31.8-23.7 55.9-61.9 55.9h-33.1V66.8h36.7c36.4 0 58.3 23.3 58.3 56.9zm-24.3 0c0-21.8-13.6-35.9-35.4-35.9h-11.5v71.9h11.5c22.1 0 35.4-14.2 35.4-36z"/></svg>
+                    ORCID: 0000-0002-2811-3336 (河合 勝彦)
+                </a>
                 <a href="theil_paper.pdf" target="_blank" class="bg-amber-500/20 text-amber-200 hover:bg-amber-500/30 transition text-xs font-semibold px-3 py-1 rounded-full border border-amber-400/30 flex items-center gap-1">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                     解説論文 (LuaLaTeX / PDF) を読む
@@ -671,7 +675,7 @@ def generate_readme_md(decomp: dict, output_path: str) -> None:
 - **Zenodo アーカイブ (DOI):** [https://doi.org/10.5281/zenodo.22102913](https://doi.org/10.5281/zenodo.22102913)
 - **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
 - **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)
-  - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, `kkawai@econ.nagoya-cu.ac.jp`）
+  - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, [ORCID: 0000-0002-2811-3336](https://orcid.org/0000-0002-2811-3336), `kkawai@econ.nagoya-cu.ac.jp`）
 
 
 ---

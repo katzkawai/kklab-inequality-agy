@@ -10,7 +10,7 @@
 - **Zenodo アーカイブ (DOI):** [https://doi.org/10.5281/zenodo.22102913](https://doi.org/10.5281/zenodo.22102913)
 - **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
 - **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)
-  - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, `kkawai@econ.nagoya-cu.ac.jp`）
+  - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, [ORCID: 0000-0002-2811-3336](https://orcid.org/0000-0002-2811-3336), `kkawai@econ.nagoya-cu.ac.jp`）
 
 
 ---

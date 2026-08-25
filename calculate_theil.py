@@ -398,8 +398,8 @@ def generate_github_pages_html(decomp: dict, output_html_path: str, img_rel_path
                 <span class="bg-emerald-500/20 text-emerald-300 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-400/30">
                     ⚡ Created with Google Antigravity
                 </span>
-                <a href="https://doi.org/10.5281/zenodo.22102913" target="_blank" class="hover:opacity-90 transition">
-                    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22102913.svg" alt="DOI: 10.5281/zenodo.22102913">
+                <a href="https://doi.org/10.5281/zenodo.22102912" target="_blank" class="hover:opacity-90 transition">
+                    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22102912.svg" alt="DOI: 10.5281/zenodo.22102912">
                 </a>
                 <a href="https://orcid.org/0000-0002-2811-3336" target="_blank" class="bg-lime-500/20 text-lime-300 hover:bg-lime-500/30 transition text-xs font-semibold px-3 py-1 rounded-full border border-lime-400/30 flex items-center gap-1.5">
                     <svg class="w-3.5 h-3.5 fill-current text-[#A6CE39]" viewBox="0 0 256 256"><path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-40.3 189.6H64.4V66.8h23.3v122.8zm-11.6-140c-7.9 0-14.3-6.4-14.3-14.3 0-7.9 6.4-14.3 14.3-14.3 7.9 0 14.3 6.4 14.3 14.3 0 7.9-6.4 14.3-14.3 14.3zm120.3 84.1c0 31.8-23.7 55.9-61.9 55.9h-33.1V66.8h36.7c36.4 0 58.3 23.3 58.3 56.9zm-24.3 0c0-21.8-13.6-35.9-35.4-35.9h-11.5v71.9h11.5c22.1 0 35.4-14.2 35.4-36z"/></svg>
@@ -665,14 +665,14 @@ def generate_readme_md(decomp: dict, output_path: str) -> None:
 
     md_content = f"""# 日本の所得格差分析：タイテル指数（Theil-T Index）とグループ加法分解
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22102913.svg)](https://doi.org/10.5281/zenodo.22102913)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22102912.svg)](https://doi.org/10.5281/zenodo.22102912)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > ⚡ **本分析コードおよびWebレポートは Google Antigravity (AGY) により自律的に作成・検証されました。**
 
 本リポジトリは、日本の所得・家計統計を模したマイクロデータを用いて、<strong>タイテル指数（Theil-T Index）</strong>およびその<strong>グループ内格差（Within-group）</strong>と<strong>グループ間格差（Between-group）</strong>への完全加法分解を行うPythonコードと分析結果を提供します。
 
-- **Zenodo アーカイブ (DOI):** [https://doi.org/10.5281/zenodo.22102913](https://doi.org/10.5281/zenodo.22102913)
+- **Zenodo アーカイブ (DOI):** [https://doi.org/10.5281/zenodo.22102912](https://doi.org/10.5281/zenodo.22102912)
 - **Webレポート (GitHub Pages):** [http://katzkawai.org/kklab-inequality-agy/](http://katzkawai.org/kklab-inequality-agy/)（または [`docs/index.html`](./docs/index.html)）
 - **学術解説論文 (PDF):** [解説論文を読む (LuaLaTeX / jlreq: `docs/theil_paper.pdf`)](./docs/theil_paper.pdf)
   - 著者: **河合 勝彦**（名古屋市立大学大学院経済学研究科, [ORCID: 0000-0002-2811-3336](https://orcid.org/0000-0002-2811-3336), `kkawai@econ.nagoya-cu.ac.jp`）

@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0000-0002-2811-3336"
 title: "日本の家計所得格差におけるタイテル指数の加法分解とデータ生成・計算・視覚化手法の計算論的実装"
 abstract: "日本の所得格差構造を解明するため、タイテル指数（Theil-T Index, GE(1)）の完全加法分解（グループ内格差・グループ間格差）を厳密に計算し、日本の所得統計に基づいた合成ミクロデータの生成からダッシュボード可視化、Webレポート公開までを包括的に実装した計算論的オープンサイエンスフレームワーク。"
-version: 1.0.0
-doi: "10.5281/zenodo.22102913"
+version: 1.0.1
+doi: "10.5281/zenodo.22103092"
 date-released: 2026-08-26
 license: MIT
 repository-code: "https://github.com/katzkawai/kklab-inequality-agy"
